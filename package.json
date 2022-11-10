@@ -1,0 +1,30 @@
+{
+  "name": "first-react-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npm run format & npm run lint & parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Saaqib Ashraf",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "parcel": "^2.8.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10"
+  }
+}
